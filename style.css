@@ -1,1 +1,26 @@
-/*CSS styling goes here*/
+body {
+  background: green;
+}
+.note {
+  background: yellow;
+  width: 300px;
+  height: 300px;
+  padding: 20px 10px 10px 20px;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display:inline-block;
+}
+
+.notecontent {
+  width: 270px;
+  height: 270;
+  margin: 20px;
+}
