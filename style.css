@@ -1,1 +1,35 @@
 /*CSS styling goes here*/
+
+#main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.note {
+  background: yellow;
+  box-shadow: 5px 5px 15px #666;
+  cursor: pointer;
+  display: inline-block;
+  height: 100px;
+  margin: 10px;
+  overflow-y: hidden;
+  padding: 5px;
+  transition: all .5s ease;
+  width: 100px;
+}
+
+.note .content {
+  height: 100%;
+}
+
+.note:hover {
+  box-shadow: 5px 5px 5px #666;
+}
+
+.remove {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.remove:hover {
+  color: rgba(0, 0, 0, 1);
+}
